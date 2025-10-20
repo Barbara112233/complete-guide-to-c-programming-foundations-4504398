@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//ähnlicher Quellcode
 
 int main()
 {
