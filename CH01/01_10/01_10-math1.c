@@ -10,7 +10,7 @@ int main()
 	int w;
 	for( w=0; w<10; w++)
 	{
-		printf("%.2f\n",sin(M_PI/(w+1)) );
+		printf("%.2f\n",sin(M_PI/(w+1)) );//verlinken des matheprogramms
 	}
 	return 0;
 }
