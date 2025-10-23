@@ -5,7 +5,7 @@ int main()
 	int a = 25;
 
 	printf("The value of a is %d\n",a);
-	a += 5;
+	a += 5;//assignment operators
 	printf("The value of a is %d\n",a);
 	a -= 5;
 	printf("The value of a is %d\n",a);
