@@ -1,8 +1,10 @@
 #include <stdio.h>
 
+typedef float radius;
+
 int main()
 {
-	typedef float radius;
+	
 
 	radius a;
 

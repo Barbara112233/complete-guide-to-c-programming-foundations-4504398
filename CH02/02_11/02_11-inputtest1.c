@@ -8,7 +8,7 @@ int main()
 
 	printf("Type a large value: ");
 	fgets(buffer,16,stdin);
-	lv = strtol(buffer,NULL,10);
+	lv = strtol(buffer,NULL,10);//erkennt keine großen Zahlen
 	printf("You typed %d\n",lv);
 	return 0;
 }
