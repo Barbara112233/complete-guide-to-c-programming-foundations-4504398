@@ -25,7 +25,7 @@ int main()
 
 	printf("Start: %04X - %s\n",a,binString(a));
 	printf("     ^ %04X - %s\n",b,binString(b));
-	c = a ^ b;
+	c = a ^ b; // Exclusiv OR, nur wenn beide unterschiedlich sind wahr
 	printf("     ^ %04X - %s\n",c,binString(c));
 	a = c ^ b;
 	printf("  End: %04X - %s\n",a,binString(a));
